@@ -13,11 +13,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+      with:
+          submodules: true
+    - uses: lukka/run-cmake@v2
+      id: runcmake
+      with:
+        cmakeGenerator: 'Ninja'  
+        cmakeListsOrSettingsJson: 'CMakeListsTxtBasic'
+        cmakeListsTxtPath: '${{ github.workspace }}/cmakeliststxt/CMakeLists.txt'
+        # useVcpkgToolchainFile: true
+        buildWithCMakeArgs: '-- -v'
+        buildDirectory: '${{ runner.workspace }}/b/ninja/'          
+          
+
