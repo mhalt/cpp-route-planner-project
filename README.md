@@ -1,3 +1,5 @@
+[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Im1oYWx0IiwicmVwbzEiOiJjcHAtcm91dGUtcGxhbm5lci1wcm9qZWN0IiwiaW5jbHVkZUxpbnQiOmZhbHNlLCJhdXRob3JJZCI6MjQyNTUsImlhdCI6MTYwMzgwNTEzMX0.XDwT02W03OlAKo-qsjP4uhCrBBZa-6mc2YZcuIKUH6o)](https://www.deepcode.ai/app/gh/mhalt/cpp-route-planner-project/_/dashboard?utm_content=gh%2Fmhalt%2Fcpp-route-planner-project)
+
 # Route Planning Project
 
 <img src="map.png" width="600" height="450" />
